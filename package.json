@@ -1,0 +1,13 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Task Application Workspace",
+  "scripts": {
+    "start": "npm run start --prefix task-app-solution/frontend",
+    "dev": "concurrently \"npm run dev --prefix task-app-solution/backend\" \"npm run dev --prefix task-app-solution/frontend\"",
+    "build": "npm run build --prefix task-app-solution/backend && npm run build --prefix task-app-solution/frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
