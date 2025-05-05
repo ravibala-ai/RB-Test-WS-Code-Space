@@ -1,3 +1,4 @@
+# RB's Lgnore list
 # Logs
 logs
 *.log
@@ -7,11 +8,7 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
-<<<<<<< HEAD
-# Diagnostic reports (https://nodejs.org/api/report.html)
-=======
 # Diagnostic reports
->>>>>>> cdfa64e (My first vesion of the WS for Task app)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
@@ -30,7 +27,6 @@ coverage
 # nyc test coverage
 .nyc_output
 
-<<<<<<< HEAD
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -43,13 +39,10 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
-=======
->>>>>>> cdfa64e (My first vesion of the WS for Task app)
 # Dependency directories
 node_modules/
 jspm_packages/
 
-<<<<<<< HEAD
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
@@ -87,20 +80,7 @@ web_modules/
 .env.production.local
 .env.local
 
-# parcel-bundler cache (https://parceljs.org/)
-=======
-# TypeScript cache
-*.tsbuildinfo
-
-# dotenv environment variable files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 # parcel-bundler cache
->>>>>>> cdfa64e (My first vesion of the WS for Task app)
 .cache
 .parcel-cache
 
@@ -112,46 +92,6 @@ out
 .nuxt
 dist
 
-<<<<<<< HEAD
-# Gatsby files
-.cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
-
-# vuepress build output
-.vuepress/dist
-
-# vuepress v2.x temp and cache directory
-.temp
-.cache
-
-# vitepress build output
-**/.vitepress/dist
-
-# vitepress cache directory
-**/.vitepress/cache
-
-# Docusaurus cache and generated files
-.docusaurus
-
-# Serverless directories
-.serverless/
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
-
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test
-
-# yarn v2
-=======
 # Backend build output
 backend/dist/
 
@@ -187,18 +127,20 @@ frontend/*.log
 *.orig
 
 # Yarn v2
->>>>>>> cdfa64e (My first vesion of the WS for Task app)
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-<<<<<<< HEAD
-=======
 
 # DynamoDB Local files
 .dynamodb/
 
 # Serverless directories
 .serverless/
->>>>>>> cdfa64e (My first vesion of the WS for Task app)
+
+# Local changes in your branch
+dist/
+
+# Changes from the remote branch
+build/
