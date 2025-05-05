@@ -1,0 +1,9 @@
+{
+  "cortexAi": {
+    "apiKey": "YOUR_CORTEX_AI_API_KEY",
+    "endpoint": "https://api.cortex.ai/v1/",
+    "model": "task-model",
+    "timeout": 5000,
+    "retryAttempts": 3
+  }
+}

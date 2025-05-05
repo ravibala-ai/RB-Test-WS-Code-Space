@@ -7,7 +7,11 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+<<<<<<< HEAD
 # Diagnostic reports (https://nodejs.org/api/report.html)
+=======
+# Diagnostic reports
+>>>>>>> cdfa64e (My first vesion of the WS for Task app)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
@@ -26,6 +30,7 @@ coverage
 # nyc test coverage
 .nyc_output
 
+<<<<<<< HEAD
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -38,10 +43,13 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
+=======
+>>>>>>> cdfa64e (My first vesion of the WS for Task app)
 # Dependency directories
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
@@ -80,6 +88,19 @@ web_modules/
 .env.local
 
 # parcel-bundler cache (https://parceljs.org/)
+=======
+# TypeScript cache
+*.tsbuildinfo
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache
+>>>>>>> cdfa64e (My first vesion of the WS for Task app)
 .cache
 .parcel-cache
 
@@ -91,6 +112,7 @@ out
 .nuxt
 dist
 
+<<<<<<< HEAD
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -129,8 +151,54 @@ dist
 .vscode-test
 
 # yarn v2
+=======
+# Backend build output
+backend/dist/
+
+# Frontend build output
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+
+# Backend environment files
+backend/.env
+backend/.env.local
+
+# Frontend environment files
+frontend/.env
+frontend/.env.local
+
+# Backend logs
+backend/logs/
+backend/*.log
+
+# Frontend logs
+frontend/logs/
+frontend/*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Yarn v2
+>>>>>>> cdfa64e (My first vesion of the WS for Task app)
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+<<<<<<< HEAD
+=======
+
+# DynamoDB Local files
+.dynamodb/
+
+# Serverless directories
+.serverless/
+>>>>>>> cdfa64e (My first vesion of the WS for Task app)
